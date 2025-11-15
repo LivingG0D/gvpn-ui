@@ -1,6 +1,6 @@
 # Power Route UI
 
-Flutter recreation of the Power Route gaming network optimizer dashboard, complete with animated controls, fake telemetry, and a server picker.
+Flutter ui for a gaming VPN network optimizer dashboard, complete with animated controls, fake telemetry, and a server picker.
 
 ## Features
 - Dark themed dashboard inspired by the provided mockups
