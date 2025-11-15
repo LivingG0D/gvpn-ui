@@ -20,13 +20,6 @@ Flutter recreation of the Power Route gaming network optimizer dashboard, comple
    flutter run
    ```
 
-## Screenshots
-| Disconnected | Connected |
-| --- | --- |
-| <img src="docs/disconnected.png" width="250"/> | <img src="docs/connected.png" width="250"/> |
-
-*(Screenshots optional—replace or remove the table if assets are not available.)*
-
 ## Testing
 ```
 flutter analyze
