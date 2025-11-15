@@ -322,29 +322,35 @@ class HeaderCard extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 16),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                'Power Route',
-                style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Power Route',
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                  ),
                 ),
-              ),
-              const SizedBox(height: 4),
-              Text(
-                'Gaming Network Optimizer',
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: const Color.fromRGBO(255, 255, 255, 0.7),
+                const SizedBox(height: 4),
+                Text(
+                  'Gaming Network Optimizer',
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: const Color.fromRGBO(255, 255, 255, 0.7),
+                  ),
                 ),
-              ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 12),
+          Wrap(
+            spacing: 12,
+            children: const [
+              HeaderIcon(icon: Icons.refresh_rounded),
+              HeaderIcon(icon: Icons.settings_rounded),
             ],
           ),
-          const Spacer(),
-          const HeaderIcon(icon: Icons.refresh_rounded),
-          const SizedBox(width: 12),
-          const HeaderIcon(icon: Icons.settings_rounded),
         ],
       ),
     );
